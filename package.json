@@ -1,0 +1,17 @@
+{
+  "name": "norelian-conduit-web",
+  "version": "1.0.0",
+  "description": "Norelian Conduit Base Web Project",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:norelianllc/conduit-web.git"
+  },
+  "scripts": {
+    "start": "http-server src/ -o /"
+  },
+  "author": "Norelian LLC",
+  "devDependencies": {
+    "http-server": "^13.0.2"
+  },
+  "license": "MIT"
+}
