@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+  Hello SingleArticleController!
+{% endblock %}
+
+{% block body %}
+  <div class="root">
+    <nav class="navbar navbar-light">
+      <div class="container">
+        <a class="navbar-brand"
+          href="https://react-redux-realworld.netlify.app/">
+          conduit
+        </a>
+        <ul class="nav navbar-nav pull-xs-right">
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://react-redux-realworld.netlify.app/">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://react-redux-realworld.netlify.app/login">
+              Sign in
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://react-redux-realworld.netlify.app/register">
+              Sign up
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="article-page">
+  <div class="banner">
+    <div class="container">
+      <h1>
+        {{ article.article.title }}
+      </h1>
+      <div class="article-meta">
+        <a>
+          <img
+            src="{{ article.article.author.image }}"
+            alt="{{ article.article.author.username }}"
+          />
+        </a>
+        <div class="info">
+          <a class="author">{{ article.article.author.username }}</a>
+          <span class="date">Fri Oct 01 2021</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container page">
+    <div class="row article-content">
+      <div class="col-xs-12">
+        <div>
+          <p>
+            See how the exact same Medium.com clone (called Conduit) is built
+            using different frontends and backends. Yes, you can mix and match
+            them, because they all adhere to the same API spec
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
