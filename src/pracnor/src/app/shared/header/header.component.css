@@ -1,0 +1,31 @@
+.logo{
+    color: #5cb85c!important;
+    font-size: 1.5rem!important;
+    padding-left: 23.5rem;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    color: #d7d7d7;
+    padding: 0.4rem 0.4rem;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.nav-link:hover {
+    color: #272727;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 23.6rem;
+    margin-top: 0.4rem;
+    list-style: none;
+}
+
+.head{
+    padding: 0.1rem 0.1rem;
+}

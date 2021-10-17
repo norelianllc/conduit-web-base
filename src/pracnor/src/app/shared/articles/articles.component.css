@@ -1,0 +1,155 @@
+.demo{
+    width: 1.7%;
+    height: 1.7%;
+    border-radius:2rem;
+    margin-left: 24rem;
+}
+
+.geronimo{
+    color: #5CB85C;
+    text-decoration: none;
+
+}
+
+.date {
+    font-size: 11px;
+    color: #c9c9c9;
+    margin-left: 0.6rem;
+}
+
+.feed{
+    color: #62cb50;
+    margin-left: 25rem;
+    margin-bottom: 0.25rem;
+    
+}
+
+.borde{
+    border-bottom: 3px solid #46bf40;
+}
+
+.bogreen{
+    width: 6.8rem;
+    margin-left: 24rem;
+}
+
+.line{
+    width: 50rem;
+    margin-left: 24rem;
+    margin-bottom: 1.6rem;
+}
+
+.linetwo{
+    width: 50rem;
+    margin-left: 24rem;
+    margin-top: 1.8rem;
+    margin-bottom: 1.6rem;
+
+}
+
+.titulo{
+    font-size: 1.5rem;
+    margin-left: 24rem;
+    color: #2d2d2d;
+}
+
+.exemp{
+    margin-left: 24rem;
+    font-size: 0.95rem;
+    margin-top: -0.7rem;
+    color: #999;
+    font-weight: 300;
+}
+
+.readmore{
+    margin-left: 24rem;
+    font-size: 0.78rem;
+    color: #999;
+    font-weight: 300;
+}
+
+.welcome{
+    margin-left: 37.5rem;
+    font-size: 0.79rem;
+    color: #c0c0c0;
+    padding: 0.2rem;
+    border: 0.02rem solid #c0c0c0;
+    border-radius: 3rem;
+}
+
+.intro{
+    margin-left: 0.5rem;
+    font-size: 0.79rem;
+    color: #c0c0c0;
+    padding: 0.2rem;
+    border: 0.02rem solid #c0c0c0;
+    border-radius: 3rem;
+    font-weight: 300;
+}
+
+.decoration{
+    text-decoration:none;
+}
+
+.fa_custom{
+    color: #5CB85C;
+    line-height: 1.25;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.fa_custom:hover{
+    color: #ffffff;
+}
+
+.total{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bheart{
+    padding: 0.25rem 0.5rem;
+    margin-left: 37.3rem;
+    border: 0.12rem solid #42aa49;
+    border-radius: 0.2rem;
+    background-color: Transparent;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
+.bheart:hover{
+    color: #ffffff;
+    background-color: #5CB85C;
+}
+
+.poptag{
+    margin-left: 76rem;
+    margin-top: -51.3rem;
+    width: 15rem;
+    height: 4.6rem;
+    background-color: #e8e8e8;
+}
+
+.buttintro{
+    margin-left: 76.6rem;
+    margin-top: -3.6rem;
+    border-radius: 1rem;
+    border: 0.2rem solid #818a91;
+    width: 4.5rem;
+    font-size: 0.8rem;
+    color: #fff !important;
+    background-color: #818a91;
+    cursor: pointer;
+}
+
+
+.buttwel{
+    margin-left: 82rem;
+    margin-top: -2.21rem;
+    border: 0.2rem solid #818a91;
+    border-radius: 1rem;
+    width: 3.7rem;
+    font-size: 0.8rem;
+    color: #fff !important;
+    background-color: #818a91;
+    cursor: pointer;
+}
