@@ -34,9 +34,12 @@
 }
 
 .line{
-    width: 50rem;
+    width: 7rem;
     margin-left: 24rem;
-    margin-bottom: 1.6rem;
+    margin-top: -1.7rem;
+    border: 0.2rem solid ;
+    border-top: 0.5rem;
+    border-color: #5CB85C;
 }
 
 .linetwo{
@@ -134,6 +137,7 @@
     margin-top: -3.6rem;
     border-radius: 1rem;
     border: 0.2rem solid #818a91;
+    border-style: outset;
     width: 4.5rem;
     font-size: 0.8rem;
     color: #fff !important;
@@ -146,10 +150,18 @@
     margin-left: 82rem;
     margin-top: -2.21rem;
     border: 0.2rem solid #818a91;
-    border-radius: 1rem;
+    border-radius: 0.8rem;
+    border-style: outset;
     width: 3.7rem;
     font-size: 0.8rem;
     color: #fff !important;
     background-color: #818a91;
     cursor: pointer;
+}
+
+.borline{
+    width: 50rem;
+    margin-left: 24rem;
+    margin-bottom: 1.6rem;
+    
 }
